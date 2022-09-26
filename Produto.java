@@ -21,29 +21,29 @@ public class Produto {
 	}
 	
 	//getters and setters
-	public void getId(String Id) {
-		returni this.Id;
+	public String getId(String Id) {
+		return this.Id;
 	}
-	public void getPreco(double preco) {
-		returni this.preco;
+	public double getPreco(double preco) {
+		return this.preco;
 	}
-	public void getNome(String nome) {
-		returni this.nome;
+	public String getNome(String nome) {
+		return this.nome;
 	}
-	public void getUnidade(String unidade) {
-		returni this.unidade;
+	public String getUnidade(String unidade) {
+		return this.unidade;
 	}
 	
-	public String setId(String Id) {	
+	public void setId(String Id) {	
 		this.Id = Id;
 	}
-	public double setPreco(double preco) {
+	public void setPreco(double preco) {
 		this.preco = preco;
 	}
-	public String setNome(String nome) {
+	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public String setUnidade(String unidade) {
+	public void setUnidade(String unidade) {
 		this.unidade = unidade;
 	}
 
@@ -73,9 +73,6 @@ public class Produto {
 		}else {
 			System.out.println("Tente novamente");
 		}
-	}
-	public static void log(Object objeto) {
-		System.out.println(String.valueOf(objeto));
 	}
 
 }
