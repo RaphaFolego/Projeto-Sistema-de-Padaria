@@ -1,4 +1,7 @@
 package SistemaPadaria;
+
+import java.util.Random;
+
 public class Produto {
 	
 	/* 
@@ -13,53 +16,68 @@ public class Produto {
 	private boolean confirmar = false;
 	
 	//constructors
+	Produto() {
+		this.unidade = "Kg";
+	}
 	
 	//getters and setters
-	public String setId() {
-		return this.Id;
+	public void getId(String Id) {
+		this.Id = Id ;
 	}
-	public String setNome() {
-		return this.nome;
-	}
-	public double setPreco() {
-		return this.preco;
-	}
-	
-	public void getPreco() {
+	public void getPreco(double preco) {
 		this.preco = preco;
 	}
-	public void getNome() {
+	public void getNome(String nome) {
 		this.nome = nome;
 	}
-	public void getId() {
-		this.Id = Id;
+	public void getUnidade(String unidade) {
+		this.unidade = unidade;
 	}
 	
+	public String setId(String Id) {
+		
+		return this.Id;
+	}
+	public double setPreco(double preco) {
+		return this.preco;
+	}
+	public String setNome(String nome) {
+		return this.nome;
+	}
+	public String setUnidade(String unidade) {
+		return this.unidade;
+	}
+
 	//methods
 	public void Alterar() {
-		if(confirmar = true) {
-			System.out.println("Informe o número de Identificação do produto: ");
-			this.Id = Id;
-		}
+		
 	}
 	public void Excluir(boolean confirmar) {
 		if(confirmar = true) {
 			System.out.println("O produto foi excluido");
-		}else{
-			System.out.println("Para cancelar a operação digite 1");		
+			
 		}
 	}
 	public void Consultar(String Id) {
-		if(this.Id = Id) {
-			System.out.println("O produto consultado é: " + nome +
-					"\npreço: " + preco +
-					"\nunidade: " + unidade);
+		if() {
+			System.out.println(
+				"O produto consultado é: " + nome +
+				"\npreço: " + preco +
+				"\nunidade: " + unidade);
 		}
 	}
 	public void Registrar(String Id, String nome) {
 		this.Id = Id;
 		this.nome = nome;
+		if(confirmar = true) {
+			System.out.println("O produto foi registrado");
+		}else {
+			System.out.println("Tente novamente");
+		}
 	}
-	
+	public static void log(Object objeto) {
+		System.out.println(String.valueOf(objeto));
+	}
 
 }
+
