@@ -22,30 +22,29 @@ public class Produto {
 	
 	//getters and setters
 	public void getId(String Id) {
-		this.Id = Id ;
+		returni this.Id;
 	}
 	public void getPreco(double preco) {
-		this.preco = preco;
+		returni this.preco;
 	}
 	public void getNome(String nome) {
-		this.nome = nome;
+		returni this.nome;
 	}
 	public void getUnidade(String unidade) {
-		this.unidade = unidade;
+		returni this.unidade;
 	}
 	
-	public String setId(String Id) {
-		
-		return this.Id;
+	public String setId(String Id) {	
+		this.Id = Id;
 	}
 	public double setPreco(double preco) {
-		return this.preco;
+		this.preco = preco;
 	}
 	public String setNome(String nome) {
-		return this.nome;
+		this.nome = nome;
 	}
 	public String setUnidade(String unidade) {
-		return this.unidade;
+		this.unidade = unidade;
 	}
 
 	//methods
