@@ -1,4 +1,4 @@
-<h1>Trabalho da UC de Programação de Soluções Computacionais</h1>
+<h1>Trabalho da UC de Programação de Soluções Computacionais e Modelagem de Software</h1>
 <h3>2º semestre do curso de Sistemas da Informação - USJT</h3>
 <br/>
 
