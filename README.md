@@ -8,7 +8,7 @@
 Neste projeto realizado em grupo, temos como objetivo compreender como é na prática a utilização desse tipo de programação.
 <br/>
 
-O programa se trata de uma solução desktop, com interface gráfica feita com a biblioteca javax.swing, e com banco de dados gerido pleo MySQL.
+O programa se trata de uma solução desktop, com interface gráfica feita com a biblioteca javax.swing, e com banco de dados gerido pelo MySQL.
 </p>
 
 <h1>Funcionalidades</h1>
